@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.banner{
+    background-image:linear-gradient(to right, rgba(9, 9, 9, 0.843), rgba(18, 18, 19, 0)),
+    url(images/cow-market1.jpg);
+    height:100vh;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-bottom:100px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    margin:10px 10px;
+    padding:15px;
+    border-radius:5px;
+    
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    text-transform: capitalize;
+    font-size:20px;
+  
+    
+}
+ul li:hover{
+    
+    background: -webkit-linear-gradient(rgb(230, 132, 247),rgb(250, 113, 177));
+}
+
+
+
+.banner-description{
+    color:white;
+    width:500px;
+    padding:20px;
+    position:relative;
+    top:150px;
+    left:120px;
+    margin-bottom: 50px;
+}
+.banner-description>h1{
+    font-size:40px;
+    font-weight:bold;
+    margin-bottom: 15px;
+    background: -webkit-linear-gradient(rgb(173, 6, 202), rgb(245, 6, 117));
+    
+
+}
+.banner-description>p{
+    font-size:18px;
+    margin-bottom: 30px;
+}
+.ancor{
+    text-decoration: none;
+    background-color:crimson;
+    font-size:20px;
+    border-radius:5px;
+    padding:10px;
+    color:white;
+}
+.banner-description>a:hover{
+    background-color: red;
+    transition: 0.3s;
+}
+
+.section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:50px;
+    margin:0 150px 0 150px;
+}
+.heading{
+    font-size:35px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+p{
+    font-size:19px;
+    justify-content: center;
+    margin-bottom:20px;
+
+}
+.donation{
+    margin:100px 0 100px 0;
+    text-align: center;
+}
+.section-2{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap:50px;
+    width:900px;
+    margin-left:146px;
+    margin-bottom:100px;
+    
+}
+.help-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
+    background-color:rgb(185, 200, 242);
+    width:500px;
+    height:230px;
+    border-radius:10px;
+  
+}
+.help-description{
+    margin-top:40px;
+    width:200px;
+    height:auto;
+}
+
+.section-3 {
+    text-align: center;
+}
+.section-3-images{
+    width:300px;
+    
+    margin:10px;
+    padding:20px;
+    /* border-radius: 25px; */
+    box-shadow:10px 10px 30px gray;
+    
+}
+.reward{
+    width:60%;
+    margin:50px 200px 0px 250px;
+    background-color:darkturquoise;
+    text-align: center;
+    border-radius: 10px;
+    padding:10px;
+    
+}
+.section-4{
+    display: flex;
+    width:80%;
+    justify-content: space-between;
+    margin:140px;
+
+}
+.jakat-fund{
+    width:30%;
+    height:400px;
+    padding: 10px;
+    border-radius:10px;
+    box-shadow: 10px 10px 30px gray;
+    text-align: center;
+
+}
+.jakat-img{
+    width:100%;
+
+
+}
+.jakat-ancor{
+    font-size:21px;
+    background-color:rgb(246, 100, 129);
+    color:aliceblue;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: black;
+    padding:50px;
+}
+footer>h1{
+    color:crimson;
+    text-align: center;
+    font-style: italic;
+
+    
+}
+footer>p{
+    margin-top:10px;
+    color:rgb(155, 153, 154);
+    text-align: center;
+    font-style: italic;
+}
+.form{
+    width:900px;
+    height:700px;
+    background-color: rgb(139, 243, 173);
+    margin:auto;
+    /* text-align: center; */
+}
+.label{
+    font-size:25px;
+}
+.help-heading{
+    text-align: center;
+    color:rgb(246, 111, 78);
+    font-size:35px;
+    margin-bottom: 20px;
+}
+.input{
+    width:300px;
+    height:50px;
+}
